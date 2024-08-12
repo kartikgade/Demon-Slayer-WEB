@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background to enhance readability */
+    color: #fff; /* White text for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #111;
+    padding: 20px;
+    color: #fff;
+}
+
+header .logo a {
+    text-decoration: none;
+    color: #f00; /* Red color for logo link */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav ul li.active a {
+    color: #f00; /* Red color for active link */
+}
+
+section.characters {
+    padding: 80px 20px;
+}
+
+section.characters .main-width {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #f00; /* Red color for headings */
+    text-align: center;
+}
+
+.character {
+    background-color: rgba(0, 0, 0, 0.8); /* Slightly opaque background for readability */
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.character h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #fff; /* White color for character names */
+}
+
+.character p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    color: #fff; /* White color for paragraph text */
+}
+
+.character-img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Specific styles for Doma's image*/
+.character-img.doma-img {
+    transform: translateX(500px);
+    transform: rotate(-90deg);
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 80%;
+    
+}  

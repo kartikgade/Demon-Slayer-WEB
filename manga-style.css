@@ -1,0 +1,91 @@
+/* manga-style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #222;
+    padding: 10px 0;
+    border-bottom: 2px solid #444;
+}
+
+header .logo h2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li.active a {
+    font-weight: bold;
+    color: #f00;
+}
+
+nav ul li.btn a {
+    background-color: #f00;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li.btn a:hover {
+    background-color: #c00;
+}
+
+section.manga {
+    padding: 20px;
+}
+
+.main-width {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.manga h1, .manga h2 {
+    color: #f00;
+}
+
+.manga .content {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+}
+
+.manga .manga-details, .manga .manga-seasons, .manga .manga-review {
+    margin-bottom: 20px;
+}
+
+.manga .manga-seasons ul {
+    list-style: none;
+    padding: 0;
+}
+
+.manga .manga-seasons ul li {
+    margin-bottom: 10px;
+}
+
+.manga .manga-seasons ul li strong {
+    color: #ff4500;
+}
